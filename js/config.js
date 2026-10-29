@@ -7,6 +7,6 @@ export const CONFIG = {
 
   // Base URL of the Cloudflare Worker, for example 'https://gamdle-stats.yourname.workers.dev'.
   // Leave null until the Worker is deployed: the results screen then shows "Worldwide stats unavailable".
-  STATS_URL: null,
+  STATS_URL: 'https://gamdle-stats.gamdle.workers.dev',
   STATS_TIMEOUT_MS: 5000,
 };
