@@ -5,7 +5,7 @@ compatibility_date = "2026-10-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "gamdle"
-database_id = "ac05dd42-d50c-459a-b375-e7a8a35f1cf7"   # printed by: npx wrangler d1 create gamdle
+database_id = "REPLACE_WITH_YOUR_D1_ID"   # printed by: npx wrangler d1 create gamdle
 
 [vars]
 # Comma separated. The first one is the default.
