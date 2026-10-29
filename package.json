@@ -1,0 +1,11 @@
+{
+  "name": "gamdle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "check": "node scripts/check-questions.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.mjs",
+    "hooks": "git config core.hooksPath .githooks"
+  }
+}

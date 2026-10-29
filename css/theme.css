@@ -1,0 +1,35 @@
+/* THEME: colors, fonts and timings in one place.
+   Art from js/assets.js is applied as --img-* variables by main.js;
+   when a slot is empty, the CSS placeholder drawing in style.css is used. */
+:root {
+  --bg: #160a2a;
+  --bg-glow: #5b1f8f;
+  --cab: #d7263d;
+  --cab-light: #ff5a6e;
+  --cab-dark: #8c1024;
+  --cab-edge: #4a0010;
+  --gold: #ffc93c;
+  --gold-light: #ffe07a;
+  --gold-dark: #c98a00;
+  --gold-edge: #5a3000;
+  --screen: #0a0f2e;
+  --screen-2: #141d52;
+  --bezel: #1b0b14;
+  --ink: #f4f1ff;
+  --muted: #a9a3d6;
+  --cyan: #3ef2ff;
+  --pink: #ff4fd8;
+  --green: #2bd86a;
+  --red: #ff3b4d;
+
+  /* Wheel segments, cycled in order */
+  --wheel-1: #ff4fd8;
+  --wheel-2: #3ef2ff;
+  --wheel-3: #ffc93c;
+  --wheel-4: #2bd86a;
+  --wheel-5: #9b6bff;
+  --wheel-text: #1a0b2e;
+
+  --font-display: 'Bungee', system-ui, sans-serif;
+  --font-body: 'Rubik', system-ui, sans-serif;
+}

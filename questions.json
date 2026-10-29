@@ -1,0 +1,44 @@
+[
+  {
+    "day": 1,
+    "date": "2026-10-27",
+    "questions": [
+      {"number": 1, "category": "Geography", "prompt": "What is the tallest mountain in Africa?", "options": ["Mount Kenya", "Mount Kilimanjaro", "Mount Stanley", "Ras Dashen"], "correct": 1},
+      {"number": 2, "category": "Human Body", "prompt": "How many bones are in the adult human body?", "options": ["186", "206", "226", "256"], "correct": 1},
+      {"number": 3, "category": "Space", "prompt": "Which planet has the shortest day?", "options": ["Saturn", "Jupiter", "Neptune", "Earth"], "correct": 1},
+      {"number": 4, "category": "Music", "prompt": "How many keys are on a standard modern piano?", "options": ["76", "85", "88", "92"], "correct": 2},
+      {"number": 5, "category": "Food", "prompt": "The croissant descends from the kipferl, a pastry from which country?", "options": ["France", "Austria", "Belgium", "Switzerland"], "correct": 1},
+      {"number": 6, "category": "Literature", "prompt": "Who wrote Pride and Prejudice?", "options": ["Charlotte Brontë", "Jane Austen", "Mary Shelley", "George Eliot"], "correct": 1},
+      {"number": 7, "category": "Sports", "prompt": "How many points is a touchdown worth in American football, before the extra point?", "options": ["3", "6", "7", "8"], "correct": 1},
+      {"number": 8, "category": "Inventions", "prompt": "What did Johannes Gutenberg introduce to Europe around 1440?", "options": ["Movable-type printing press", "Telescope", "Magnetic compass", "Pendulum clock"], "correct": 0}
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-10-28",
+    "questions": [
+      {"number": 1, "category": "History", "prompt": "In what year did the Berlin Wall fall?", "options": ["1987", "1989", "1991", "1993"], "correct": 1},
+      {"number": 2, "category": "Animals", "prompt": "What is the fastest land animal?", "options": ["Pronghorn", "Lion", "Cheetah", "Greyhound"], "correct": 2},
+      {"number": 3, "category": "Chemistry", "prompt": "What is the chemical symbol for gold?", "options": ["Ag", "Au", "Gd", "Go"], "correct": 1},
+      {"number": 4, "category": "Sports", "prompt": "How many players does each soccer team have on the field?", "options": ["9", "10", "11", "12"], "correct": 2},
+      {"number": 5, "category": "Movies", "prompt": "Which film won the first Academy Award for Best Picture?", "options": ["Wings", "Sunrise", "The Jazz Singer", "Metropolis"], "correct": 0},
+      {"number": 6, "category": "Geography", "prompt": "What is the capital of Australia?", "options": ["Sydney", "Melbourne", "Canberra", "Perth"], "correct": 2},
+      {"number": 7, "category": "Mythology", "prompt": "In Greek mythology, who is the king of the gods?", "options": ["Poseidon", "Hades", "Apollo", "Zeus"], "correct": 3},
+      {"number": 8, "category": "Food", "prompt": "What is the main ingredient in guacamole?", "options": ["Avocado", "Lime", "Tomato", "Onion"], "correct": 0}
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-10-29",
+    "questions": [
+      {"number": 1, "category": "Language", "prompt": "Which language has the most native speakers?", "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"], "correct": 2},
+      {"number": 2, "category": "Art", "prompt": "Who painted The Starry Night?", "options": ["Claude Monet", "Vincent van Gogh", "Paul Cézanne", "Edvard Munch"], "correct": 1},
+      {"number": 3, "category": "Tech", "prompt": "What does HTTP stand for?", "options": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "HyperText Transmission Process", "Hyperlink Text Transfer Protocol"], "correct": 0},
+      {"number": 4, "category": "Oceans", "prompt": "What is the largest ocean on Earth?", "options": ["Atlantic", "Indian", "Arctic", "Pacific"], "correct": 3},
+      {"number": 5, "category": "Math", "prompt": "What is the smallest prime number?", "options": ["0", "1", "2", "3"], "correct": 2},
+      {"number": 6, "category": "Music", "prompt": "How many strings does a standard guitar have?", "options": ["4", "5", "6", "7"], "correct": 2},
+      {"number": 7, "category": "History", "prompt": "Who was the first President of the United States?", "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"], "correct": 2},
+      {"number": 8, "category": "Animals", "prompt": "What is the largest animal on Earth?", "options": ["African elephant", "Blue whale", "Giraffe", "Sperm whale"], "correct": 1}
+    ]
+  }
+]

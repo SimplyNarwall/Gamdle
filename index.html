@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gamdle</title>
+  <meta name="description" content="A daily trivia game show. Bet your tokens, answer, pull the lever.">
+  <meta name="theme-color" content="#160a2a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎰</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="mute" id="mute" type="button" aria-label="Mute sound">🔊</button>
+  <main class="stage">
+    <div class="machine" id="machine">
+      <header class="marquee">
+        <div class="bulbs" aria-hidden="true"></div>
+        <h1 class="logo"><span>GAMDLE</span></h1>
+        <div class="bulbs" aria-hidden="true"></div>
+      </header>
+
+      <div class="cabinet">
+        <div class="side-lights left" aria-hidden="true"></div>
+        <div class="side-lights right" aria-hidden="true"></div>
+        <div class="screen-frame">
+          <section class="screen" id="screen" aria-live="polite"></section>
+        </div>
+        <div class="lever" id="lever" aria-label="Lever">
+          <div class="lever-arm"><div class="lever-knob"></div></div>
+          <div class="lever-hub"></div>
+        </div>
+      </div>
+
+      <footer class="panel">
+        <span class="panel-label">Insert coins</span>
+        <div class="coin-slot" id="coinSlot" aria-hidden="true"><div class="slot"></div></div>
+        <span class="panel-spacer" aria-hidden="true"></span>
+      </footer>
+    </div>
+  </main>
+
+  <div class="fx" id="fx" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="overlay" id="overlay" hidden></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

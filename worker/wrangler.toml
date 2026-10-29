@@ -1,0 +1,13 @@
+name = "gamdle-stats"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gamdle"
+database_id = "REPLACE_WITH_YOUR_D1_ID"   # printed by: npx wrangler d1 create gamdle
+
+[vars]
+# Comma separated. The first one is the default.
+ALLOWED_ORIGINS = "https://simplynarwall.github.io,http://localhost:8000"
+QUESTIONS_URL = "https://simplynarwall.github.io/Gamdle/questions.json"
