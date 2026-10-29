@@ -1,0 +1,6 @@
+#!/bin/sh
+# Blocks a push if questions.json is invalid. Enable once with: npm run hooks
+node scripts/check-questions.mjs || {
+  echo "Push blocked: fix questions.json first."
+  exit 1
+}

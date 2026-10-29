@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Cloudflare Wrangler: local state and the local test database
+.wrangler/
+worker/.wrangler/
+# Local secrets for `wrangler dev` (never commit)
+.dev.vars
+worker/.dev.vars
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
