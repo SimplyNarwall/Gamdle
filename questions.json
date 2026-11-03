@@ -15,7 +15,7 @@
   },
   {
     "day": 2,
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "questions": [
       {"number": 1, "category": "History", "prompt": "In what year did the Berlin Wall fall?", "options": ["1987", "1989", "1991", "1993"], "correct": 1},
       {"number": 2, "category": "Animals", "prompt": "What is the fastest land animal?", "options": ["Pronghorn", "Lion", "Cheetah", "Greyhound"], "correct": 2},
@@ -29,7 +29,7 @@
   },
   {
     "day": 3,
-    "date": "2026-11-03",
+    "date": "2026-11-05",
     "questions": [
       {"number": 1, "category": "Language", "prompt": "Which language has the most native speakers?", "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"], "correct": 2},
       {"number": 2, "category": "Art", "prompt": "Who painted The Starry Night?", "options": ["Claude Monet", "Vincent van Gogh", "Paul Cézanne", "Edvard Munch"], "correct": 1},
