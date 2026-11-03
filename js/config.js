@@ -1,7 +1,7 @@
 // Global settings. Shared by the browser, the question checker and the stats Worker.
 export const CONFIG = {
   // Day 1. Changing this after launch renumbers every day, so set it once.
-  LAUNCH_DATE: '2026-10-27',
+  LAUNCH_DATE: '2026-11-03',
   TIME_ZONE: 'America/Chicago',
   QUESTION_SECONDS: 30,
 
